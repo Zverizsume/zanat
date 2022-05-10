@@ -1,0 +1,38 @@
+{
+  "name": "zanat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^1.7.0",
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.6",
+    "@emotion/react": "^11.8.2",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.8.1",
+    "@fontsource/roboto": "^4.5.3",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.2",
+    "@mui/x-data-grid": "^5.7.0",
+    "@next-auth/mongodb-adapter": "^1.0.3",
+    "axios": "^0.26.1",
+    "dayjs": "^1.11.0",
+    "framer-motion": "^6.2.8",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.8",
+    "next": "12.1.0",
+    "next-auth": "^4.3.1",
+    "next-connect": "^0.12.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0"
+  }
+}
